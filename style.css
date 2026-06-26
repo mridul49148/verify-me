@@ -1,0 +1,107 @@
+body{
+    background-color: #93f6a8;
+    margin: 7rem;
+    padding: 2rem;
+}
+.main{
+    background-color: white;
+    width: 100%;
+    max-width: 650px;
+    min-height: 70vh;
+    font-size: 1em;
+    border-radius: 20px;
+    box-shadow:0px 0px 10px black;
+
+}
+
+.main header{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:5px;
+    font-size:1.9em;
+}
+
+.green-dot{
+    background-color: #059669;
+    height: .4em;
+    width: .4em;
+    border-radius: .13em;
+}
+.head{
+   font-size: 1em;
+   font-weight: 500;
+   color: #065f46;
+}
+.sub{
+    text-align: center;
+    font-size: 1em; 
+    padding-bottom: 1em;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.611);
+}
+.form{
+    border-bottom:2px solid black;
+    border-radius: 20px;
+
+
+}
+.steps{
+    display: flex;
+    justify-content: space-evenly;
+    color:#94a3b8;
+
+}
+.step{
+    font-size: .8em;
+    font-weight: 599;
+    
+}
+.progress{
+    height: .4em;
+    margin:0em 2em;
+    background-color:rgba(97, 87, 87, 0.703);
+}
+.step-1{
+    color: #059669;
+}
+.progress-fill{
+    height: 100%;
+    width: 30%;
+    background-color: #198754;
+}
+input{
+    height: 3em;
+    margin-bottom: 1em;
+}
+.mn-label{
+    font-size:.9em;
+    font-weight: 499;
+}
+.num{
+    height: 3em;
+}
+
+.button{
+    display: flex;
+    justify-content: space-between;
+}
+
+.b-b{
+    background-color: transparent;
+    color: #b4aeae;
+    border:2px solid #94a3b8ad;
+}
+.b-b:hover{
+    border: 2px solid #788597;
+    color: #788597;
+}
+.b-c{
+    background-color: #198754;
+    color:white
+}   
+.b-c:hover{
+    background-color: #198754;
+    color: white;
+    
+}
